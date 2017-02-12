@@ -86,3 +86,12 @@ Unstaging file
 git reset HEAD second.txt   //removes from staging area
 
 git checkout -- second.txt  //to get to checked in version
+
+
+
+Reverting changes to old version
+---------------------------------
+
+git log
+git checkout 00971abdf -- second.txt
+git commit -am "undoing changes"
