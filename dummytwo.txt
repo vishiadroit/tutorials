@@ -43,7 +43,3 @@ git log --author="vishi09"
 
 
 git status
-
-working copy > Staging area > Repository
-
-git add dummytwo.txt
