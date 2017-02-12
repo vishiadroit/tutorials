@@ -34,3 +34,7 @@ ls -la //for hidden files
 git add . //add all changes we made to git
 
 git commit -m "This is our first commit"  //taking a snapshot in time which can be undone
+
+View Commit History
+
+git log
