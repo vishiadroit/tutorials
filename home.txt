@@ -61,7 +61,7 @@ git rm dummythree.txt
 
 Renaming
 --------
-chane name of one.txt to two.txt in directory.
+change name of one.txt to two.txt in directory.
 
 git add two.txt
 git rm one.txt
@@ -75,3 +75,14 @@ git commit -am "commit directly to repo"
 
 
 git checkout  --second.txt
+
+
+
+
+Unstaging file 
+---------------
+
+
+git reset HEAD second.txt   //removes from staging area
+
+git checkout -- second.txt  //to get to checked in version
