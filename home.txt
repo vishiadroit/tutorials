@@ -69,3 +69,6 @@ git rm one.txt
 git commit -m "message for renaming"
 
 git mv one.txt second.txt
+
+
+git commit -am "commit directly to repo"
