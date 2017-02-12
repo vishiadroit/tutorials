@@ -1,0 +1,45 @@
+Lets test Git out--version 1.
+
+//
+
+git --version
+
+git config --global user.name ""
+
+git config --global user.email ""
+
+git config --list
+
+git config user.email
+
+clear
+
+Create a Repo
+-------------
+pwd
+
+cd 
+
+use ls and cd .. as well
+
+
+create a folder 
+navigate to it in git bash
+
+
+git init //initialize the repo
+
+ls -la //for hidden files
+
+git add . //add all changes we made to git
+
+git commit -m "This is our first commit"  //taking a snapshot in time which can be undone
+
+View Commit History
+
+git log
+
+git log --author="vishi09"
+
+
+git status
