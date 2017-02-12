@@ -52,4 +52,6 @@ git add dummytwo.txt
 Viewing again in repo for changes!!
 
 
-git diff
+git diff  //only checks between working copy and repo but not with staging area.
+
+git diff --staged
