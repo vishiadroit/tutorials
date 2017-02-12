@@ -72,3 +72,6 @@ git mv one.txt second.txt
 
 
 git commit -am "commit directly to repo"
+
+
+git checkout  --second.txt
