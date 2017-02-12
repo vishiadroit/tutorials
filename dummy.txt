@@ -49,5 +49,7 @@ working copy > Staging area > Repository
 git add dummytwo.txt
 
 
-Viewing changes in repo!!
+Viewing again in repo for changes!!
 
+
+git diff
