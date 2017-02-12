@@ -55,3 +55,5 @@ Viewing again in repo for changes!!
 git diff  //only checks between working copy and repo but not with staging area.
 
 git diff --staged
+
+git rm dummythree.txt
