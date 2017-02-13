@@ -1,0 +1,97 @@
+Lets test Git out--version 1.
+
+//
+
+git --version
+
+git config --global user.name ""
+
+git config --global user.email ""
+
+git config --list
+
+git config user.email
+
+clear
+
+Create a Repo
+-------------
+pwd
+
+cd 
+
+use ls and cd .. as well
+
+
+create a folder 
+navigate to it in git bash
+
+
+git init //initialize the repo
+
+ls -la //for hidden files
+
+git add . //add all changes we made to git
+
+git commit -m "This is our first commit"  //taking a snapshot in time which can be undone
+
+View Commit History
+
+git log
+
+git log --author="vishi09"
+
+
+git status
+
+working copy > Staging area > Repository
+
+git add dummytwo.txt
+
+
+Viewing again in repo for changes!!
+
+
+git diff  //only checks between working copy and repo but not with staging area.
+
+git diff --staged
+
+git rm dummythree.txt
+
+
+Renaming
+--------
+change name of one.txt to two.txt in directory.
+
+git add two.txt
+git rm one.txt
+
+git commit -m "message for renaming"
+
+git mv one.txt second.txt
+
+
+git commit -am "commit directly to repo"
+
+
+git checkout  --second.txt
+
+
+
+
+Unstaging file 
+---------------
+
+
+git reset HEAD second.txt   //removes from staging area
+
+git checkout -- second.txt  //to get to checked in version
+
+
+
+Reverting changes to old version
+---------------------------------
+
+git log
+git checkout 00971abdf -- second.txt
+git commit -am "undoing changes"
